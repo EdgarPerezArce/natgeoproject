@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100&display=swap");
+
+
+/*global*/
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+/*utilities*/
+
+
+body{
+    background-color: black;
+    color: white;
+
+}
+a{
+   color:white;
+   text-decoration: none;
+}
+section img{
+    max-width: 100%;
+}
+/*nav menu*/
+nav{
+    background-color: white;
+    display:flex;
+    justify-content: space-between;
+
+}
+nav.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 35px;
+    padding: 8px 10px;
+
+}
+nav.menu a{
+    color:black;
+    margin: right 20px;
+}
+.logo-frame{
+    height: 30px;
+}
+.logo-complete{
+    display: none;
+}
+.link-login{
+    color:black;
+    font-size: 13px;
+    text-transform: uppercase;
+        letter-spacing: 5px;
+font-weight: bold;
+}
+.link-search{
+    color: black;
+    display: none;
+}
+.link-news{
+    display: none;
+}
+.link-subs{
+    margin-bottom:3px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: white !important;
+    background-color: black;
+    padding: 16px;
+    background:linear-gradient(to left, black 50%,) rgb(241, 211, 41)right;
+    transition: 2.s ease-out;
+
+}
+.link-subs:hover{
+    color: black;
+    background-color: rgb(241, 211, 41);
+    width: 300px;
+}
+.link-menu{
+    display: none;
+}
+.link-arrows{
+   font-size: 20px;
+   text-transform: uppercase;
+   font-weight: bolder;
+
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+}
+p{
+    font-size: 30px;
+    text-align: center;
+}
+/*headers*/
+header{
+    height: 300px;
+}
+.sub-p{
+    text-align: center;
+    text-decoration: underline ;
+    background:linear-gradient(to left, black 50%,) rgb(241, 211, 41)right;
+    background-size: 200px;
+    transition: width 2s;
+  }
+
